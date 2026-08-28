@@ -2,3 +2,149 @@ body{
     background-color: black;
     color: white;
 }
+
+@font-face {
+  font-family: 'LiberationSans-Regular';
+  src: url('fontes/LiberationSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Techovier';
+  src: url('fontes/Techovier\ .otf');
+}
+
+@font-face {
+    font-family: 'Techfont' ;
+    src: url('fontes/Techfont.ttf');
+}
+
+.nome{
+    font-family: Techovier;
+    font-size: 12px;
+}
+ .topo{
+    background: rgba(20,22,27,0.85);
+    backdrop-filter: blur(2px);
+    position: sticky; 
+    top: 0;
+    z-index:50;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom:1px solid rgb(247, 52, 221);
+ }
+
+ .topo nav{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+}
+
+.topo nav a{
+    color: white;
+
+}
+.topo nav a:hover{
+    color: rgb(247, 52, 221);
+    transform: scale(1.09);
+    background-color: white;
+    padding: 1px;
+    border-radius: 5px;
+
+}
+
+.sobre{
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 30px 80px;
+
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info{
+    display:flex; 
+    flex-direction:column;
+    gap: 8px;
+}
+
+.minha_img{
+    border:2px solid rgb(247, 52, 221);
+    border-radius: 100%;
+    overflow:hidden;
+    display:flex; 
+    align-items:center;
+    justify-content:center;
+  }
+
+.sobre_texto{
+    font-family: Techfont;
+    font-size: 18px;
+}
+
+.formacao{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Techfont;
+    font-size: 12px;
+}
+
+.sobre_mim{
+    flex-basis: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Techfont;
+    font-size: 12px;
+}
+.experiencia{
+    font-family: Techfont;
+    font-size: 14px;
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.timeline-card{
+    background: rgba(20,22,27);
+    border-left: 3px solid rgb(247, 52, 221);
+    border-radius: 6px;
+    padding: 20px 24px;
+
+}
+.timeline-card:hover{
+    transform: scale(1.02)
+    
+}
+
+.timeline-card h3{
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-family: Techfont;
+}
+
+.timeline-card p{
+    color:aliceblue;
+    font-size: 14px;
+}
+
+
