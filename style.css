@@ -49,10 +49,7 @@ body{
 }
 .topo nav a:hover{
     color: rgb(247, 52, 221);
-    transform: scale(1.09);
-    background-color: white;
     padding: 1px;
-    border-radius: 5px;
 
 }
 
@@ -171,7 +168,7 @@ body{
 
 .card{
    background: rgba(20,22,27);
-   border: 2px solid rgb(255, 170, 244);
+   border-left: 2px solid rgb(255, 170, 244);
    border-radius: 8px;
    padding: 19px;
 
@@ -207,7 +204,6 @@ body{
     color:rgb(247, 52, 221);
     font-family: Techfont;
     font-size: 10px;
-    border-bottom: 1px solid transparent;
 }
 
 .repositorio a:hover{
@@ -215,4 +211,51 @@ body{
     background-color: white;
     padding: 6px;
     border-radius: 5px;
+}
+
+.contato{
+    background: rgba(20,22,27,0.85);
+    border: 1px solid rgb(247, 52, 221);
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.contato h2{
+    margin-bottom: 20px;
+    font-family: Techfont;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.contato p{
+    color:rgb(198, 201, 203);
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links_contato{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.links_contato a{
+    color: white;
+    border: 1px solid rgb(247, 52, 221);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: Techfont;
+    font-size: 10px;
+}
+
+.links_contato a:hover{
+    background-color: rgb(216, 21, 190) ;
+    border: 1px solid white;
+    transform: scale(1.09);
+
 }
